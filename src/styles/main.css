@@ -1,0 +1,200 @@
+
+
+body {
+font-family:Helvetica,sans-serif;
+font-size:13px;
+}
+
+
+#main {
+#background-color:#2E3436;
+#border:2px solid #92b4d6;
+padding: 20px;
+}
+
+#header {
+background-color:#83adbb;
+border:2px solid #CCCCCC;
+padding:0px 0px 0px 25px;
+}
+
+a {
+color:#2276BB;
+text-decoration:none; 
+font-size:13px;
+}
+
+.name {
+color:#2276BB;
+text-decoration:none; 
+font-size:16px;
+font-weight:bold;
+}
+
+.logo {
+padding:5px;
+
+}
+
+#mainContent {
+background-color:#92b4d6;
+border:3px solid #CCCCCC;
+padding:10px 0px 20px 40px;
+width:1025px;
+margin-right: auto ;
+}
+
+#padding {
+padding:10px 180px 10px 160px;
+}
+
+#searchbox {
+float: right;
+padding: 20px 50px 0px 0px;
+
+}
+
+#search {
+width:215px;
+height:36px;
+border: 2px solid #CCCCCC;
+padding: 2px;
+font-family: Helvetica, sans-serif;
+font-size: medium;
+}
+
+.login {
+width:215px;
+height:36px;
+border: 2px solid #CCCCCC;
+padding: 2px;
+font-family: Helvetica, sans-serif;
+font-size: medium;
+}
+
+#loginbutton {
+padding: 4px;
+}
+
+#loginbuttonbox {
+padding: 10px 0px 0px 0px;
+}
+
+#loginbox {
+padding: 0px 0px 0px 60px;
+font-family: Helvetica, sans-serif;
+font-size: medium;
+}
+
+#logout {
+float:right;
+padding:15px;
+}
+
+
+#registerbox {
+padding: 0px 0px 0px 60px;
+font-family: Helvetica, sans-serif;
+font-size: medium;
+}
+
+
+#results {
+background-color:#ffffff;
+border:2px solid #CCCCCC;
+padding:20px;
+width:550px;
+height:1400px;
+margin-right: auto ;
+}
+
+#results ul {
+list-style-type:none;
+margin-left: 10px;
+margin-right: 20px;
+overflow:hidden;
+padding:5px 5px;
+}
+
+#results li {
+border-bottom:1px solid #CCCCCC;
+width:450px;
+margin-left: 30px;
+margin-right: 20px;
+overflow:hidden;
+padding:10px 2px;
+font-family: Helvetica, sans-serif;
+font-size: 16px;
+color:#333333;
+}
+
+#mybox {
+background-color:#FFFFFF;
+border:2px solid #CCCCCC;
+padding:15px;
+width:450px;
+margin-left: auto ;
+margin-right: auto ;
+}
+
+.mybutton {
+float: right;
+padding: 2px;
+}
+
+
+img {
+border:0;
+}
+
+#msgtext {
+width: 450px;
+height: 60px;
+border: 2px solid #cccccc;
+padding: 5px;
+font-family: Helvetica, sans-serif;
+}
+
+#searchbutton {
+padding:3px;width:6em
+font-family: Helvetica, sans-serif;
+float: right;
+padding: 8px;
+}
+
+#counter {
+float: right;
+color: grey;
+padding: 0px 5px 2px 0px;
+font-family: Helvetica, sans-serif;
+font-size: large;
+}
+
+#backtomessages {
+padding:3px;
+}
+
+.time {
+padding-top:5px;
+font-family: Helvetica, sans-serif;
+font-size: 12px;
+color: grey;
+}
+
+#more-messages {
+float: right;
+}
+
+#alert-msg {
+padding:10px 2px;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+}
+
+#searchresults-msg {
+padding:10px 2px;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+
+}
+

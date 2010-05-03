@@ -1,0 +1,1 @@
+xdmp:log(fn:concat(xdmp:get-current-user(), " was alerted"))
