@@ -189,7 +189,8 @@ $(document).ready( function(){
       checkAlerts();
  
       $("#mybox").hide();
-
+      $("#msglist").html('');
+      
       var searchTerm = $("#search").val();
       $('#search-term').attr('value', searchTerm);
       $("#search").val('');
@@ -212,7 +213,7 @@ $(document).ready( function(){
 	data: "q=" + searchTerm,
 	cache: false,
 	success: function(html){
-	  $("#msglist").html(html);;
+	  $("#msglist").html(html);
 	}
 
     });

@@ -16,5 +16,8 @@ let $options :=
  </default-suggestion-source>
 </search:options>
 
-return
+let $results :=
   search:suggest($term, $options)
+for $result in $results
+return
+  fn:replace($result, '"', '')
